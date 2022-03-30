@@ -1,0 +1,158 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Test_2"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "bbb-001-216698-1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/bbb0012166981/full/181,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2074,
+      "width": 2897,
+      "items": [
+        {
+          "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/bbb0012166981/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2074,
+                "width": 2897,
+                "service": [
+                  {
+                    "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/bbb0012166981",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "fss-001-34005"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/fss00134005/full/189,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2161,
+      "width": 3024,
+      "items": [
+        {
+          "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/fss00134005/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2161,
+                "width": 3024,
+                "service": [
+                  {
+                    "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/fss00134005",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "service-pnp-cph-3c30000-3c36000-3c36900-3c36946v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/servicepnpcph3c300003c360003c369003c36946v/full/103,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1024,
+      "width": 826,
+      "items": [
+        {
+          "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/servicepnpcph3c300003c360003c369003c36946v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1024,
+                "width": 826,
+                "service": [
+                  {
+                    "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/servicepnpcph3c300003c360003c369003c36946v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
