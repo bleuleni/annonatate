@@ -1,0 +1,35 @@
+---
+canvas: "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "269 Les Bains du Gurnigel Musikhalle",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "bleuleni",
+                "name": "bleuleni"
+            },
+            "created": "2022-04-01T07:46:47.920Z",
+            "modified": "2022-04-01T07:47:11.078Z"
+        }
+    ],
+    "target": {
+        "source": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=96.94612884521484,1902.4891357421875,1693.6278457641602,136.0455322265625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f3bb63b2-d44b-494c-b12d-74849103f3ca.json",
+    "motivation": "commenting"
+}
