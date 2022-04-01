@@ -1,0 +1,46 @@
+---
+canvas: "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Stuhl",
+            "purpose": "describing",
+            "creator": {
+                "id": "bleuleni",
+                "name": "bleuleni"
+            },
+            "created": "2022-04-01T07:14:05.183Z",
+            "modified": "2022-04-01T07:15:51.395Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "M\u00f6bel",
+            "purpose": "tagging",
+            "creator": {
+                "id": "bleuleni",
+                "name": "bleuleni"
+            },
+            "created": "2022-04-01T07:16:00.136Z",
+            "modified": "2022-04-01T07:16:00.857Z"
+        }
+    ],
+    "target": {
+        "source": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/canvas/Test-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=732.5283203125,1436.94140625,427.5716552734375,519.194091796875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://bleuleni.github.io/annonatate/img/derivatives/iiif/Test/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fe799139-ddfa-423f-9808-25834ed88817.json",
+    "motivation": "commenting"
+}
